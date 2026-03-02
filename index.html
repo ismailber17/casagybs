@@ -9,7 +9,6 @@
 
   <header class="header">
     <img src="image.png" alt="CasaGyps Logo" class="logo">
-    <p>إدارة الشحنات والتوصيل</p>
   </header>
 
   <main class="container">
@@ -23,10 +22,10 @@
       <input type="text" name="commune" placeholder="البلدية" required>
       <input type="text" name="address" placeholder="العنوان الكامل" required>
 
-      <input type="number" name="price" placeholder="سعر الطلب (DA)" required>
+      <input type="hidden" name="price" value="3500">
 
       <textarea name="note" placeholder="ملاحظات (اختياري)"></textarea>
-
+      
       <button type="submit">🚚 إنشاء الشحنة</button>
     </form>
 
@@ -41,4 +40,5 @@
 </body>
 
 </html>
+
 
