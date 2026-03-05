@@ -2,8 +2,7 @@
 
 $token = getenv("ECOTRACK_TOKEN");
 
-$url = "curl --location -g --request POST '{{url}}/api/v1/create/order?reference=null&nom_client=&telephone=&telephone_2=null&adresse=&code_postal=null&commune=&code_wilaya=&montant=&remarque=null&produit=null&boutique=null&type=&stop_desk=null'"; // ضع الرابط الصحيح هنا
-
+$url = "https://app.ecotrack.dz/api/v1/create/order";
 $data = [
     "nom_client" => $_POST['customer_name'],
     "telephone" => $_POST['phone'],
@@ -35,3 +34,4 @@ echo "</pre>";
 
 
 ?>
+
