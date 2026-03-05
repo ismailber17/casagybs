@@ -18,7 +18,12 @@
       <input type="text" name="customer_name" placeholder="اسم الزبون" required>
       <input type="tel" name="phone" placeholder="رقم الهاتف" required>
 
-      <input type="text" name="wilaya" placeholder="الولاية" required>
+      <select name="wilaya">
+        <option value="16">الجزائر</option>
+        <option value="31">وهران</option>
+        <option value="09">البليدة</option>
+      </select>
+     
       <input type="text" name="commune" placeholder="البلدية" required>
       <input type="text" name="address" placeholder="العنوان الكامل" required>
 
@@ -44,3 +49,4 @@
 </body>
 
 </html>
+
