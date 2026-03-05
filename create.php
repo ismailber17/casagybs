@@ -2,7 +2,7 @@
 
 $token = getenv("ECOTRACK_TOKEN");
 
-$url = "https://documenter.getpostman.com/view/14517169/Tz5je15g#377308a2-3dee-41cb-9c36-4b8dc94d9fc2"; // ضع الرابط الصحيح هنا
+$url = "curl --location -g --request POST '{{url}}/api/v1/create/order?reference=null&nom_client=&telephone=&telephone_2=null&adresse=&code_postal=null&commune=&code_wilaya=&montant=&remarque=null&produit=null&boutique=null&type=&stop_desk=null'"; // ضع الرابط الصحيح هنا
 
 $data = [
     "nom_client" => $_POST['customer_name'],
@@ -35,3 +35,4 @@ echo "</pre>";
 
 
 ?>
+
