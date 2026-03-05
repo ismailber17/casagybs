@@ -1,6 +1,6 @@
 <?php
 
-$token = "3pmqr8IU94RkLoUnTJilpfda92FZAEuiJ56OHXZVoQmBxq9ouWTJrEptedAd";
+$token = getenv("ECOTRACK_TOKEN");
 
 $url = "https://documenter.getpostman.com/view/14517169/Tz5je15g#377308a2-3dee-41cb-9c36-4b8dc94d9fc2"; // ضع الرابط الصحيح هنا
 
@@ -32,5 +32,6 @@ curl_close($ch);
 echo "<pre>";
 print_r($response);
 echo "</pre>";
+
 
 ?>
